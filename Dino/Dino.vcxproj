@@ -110,6 +110,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Cactus.h" />
+    <ClInclude Include="Dino.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Pixel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cactus.cpp" />
+    <ClCompile Include="Dino.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
